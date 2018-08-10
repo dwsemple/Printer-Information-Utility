@@ -1,0 +1,9 @@
+Build:
+javac -cp ../lib/*;. PrinterInformationUtility.java
+
+Run:
+Java -cp ../lib/*;. PrinterInformationUtility
+
+Create .jar file:
+jar cvfm PrinterInformationUtility.jar PrinterInformationUtility.mf *.class
+//Must build the .java file first. Once built place all the .class files and the .mf files into the ../lib folder. Run the above from the ../lib folder.
